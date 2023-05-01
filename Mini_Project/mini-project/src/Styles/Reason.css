@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainR{
+    height: 110vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    margin-top: auto;
+    justify-content: center;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+    
+}
+
+.mainR-box1{
+    margin-top: auto;
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;   
+    padding: 1vw;
+    border-radius: 20px;
+}
+
+.mainR input{
+    border: 2px;
+    background-color: transparent;
+}
+
+
+
+.mainR-box1 select, input , button{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: .5vw;
+    background-color: transparent;
+    border: 2px;
+
+}
+.mainR-box1 select:hover, input:hover , button:hover{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+
+.mainR-dropdown{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainR-dropdown select{
+    /* margin-top: 1vh; */
+    width: 11.5vw;
+    /* margin-left: -30px; */
+    height: 5vh;
+}
+.mainR-dropdown-2 select{
+    
+    width: 11.5vw;
+    height: 5vh;
+}.mainR-box1 input{
+    width: 10vw;
+    height: 2vh;
+}
+.mainR-submit button{
+    width: 11.8vw;
+    height: 5vh;
+    margin-top: 5vh;
+}
+.mainR-date-from-to button{
+    width: 11.8vw;   
+}
+.mainR-date-from-to {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.mainR-date-from-to input{
+    width: 11.5vw;
+    height: 5vh;
+}

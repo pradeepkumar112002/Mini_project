@@ -1,0 +1,63 @@
+body{
+    background-color: #F1F8FF;
+    
+}
+
+.main3{
+    background-color: #F1F8FF;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 1;
+
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+
+.main-form3{
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2vh;
+    border-radius: 2vh;
+    padding: 2vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+       
+}
+
+.main-form3-sub1 input, .main-form3-sub2 input{
+    width: 20vw;
+    height: 5vh;
+    border: 2px;
+    border-radius: 0.3vw;
+    background-color: transparent;
+
+}
+.main-form3-sub1 input:hover, .main-form3-sub2 input:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.main-form3-sub3 button{
+    width: 20vw;
+    height: 5vh;
+    background-color: transparent;
+    border-radius: 0.3vw;
+    border: 2px;
+}
+.main-form3-sub3 button:hover{
+    background-color: #4158D0;
+}
+
+.main-form3-sub1 input::placeholder, .main-form3-sub2 input::placeholder{
+    font-variant: small-caps;
+    color: black;
+    font-size: 1vw;   
+}
+
+.main-form3-sub3 button{
+    font-size: 1vw;      
+}

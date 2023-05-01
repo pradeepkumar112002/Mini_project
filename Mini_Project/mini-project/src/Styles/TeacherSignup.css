@@ -1,0 +1,78 @@
+body{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    
+}
+
+.main8{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main8-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 2vh;
+    padding: 2vh;
+    background-color:transparent;   
+}
+.main8-form-sub1{
+    display: flex;
+    flex-direction: column;
+}
+
+.main8-form-sub1 input, .main8-form-sub2 input,.main8-form-sub4 input, .main8-form-sub5 input,.main8-form-sub3 input{
+    background-color: transparent;
+    border: 2px;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 0.3vw;
+}
+
+.main8 input::placeholder{
+    color: black;
+}
+.main8 input:hover{
+    box-shadow: rgba(218, 15, 133, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.main8-form-sub2, .main8-form-sub4 , .main8-form-sub5, .main8-form-sub3{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.main8-dropdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main8-dropdown select{
+    width: 17vw;
+    height: 5vh;
+    border-radius: .2vw;
+}
+
+.main8-form-sub1 input::placeholder, .main8-form-sub2 input::placeholder{
+    font-size: 1vw;   
+}
+
+.main8-form-sub6 button{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 0.3vw;
+    background-color: transparent;
+    border: 2px;
+    font-size: 1vw;
+}
+
+.main8-form-sub6 button:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}

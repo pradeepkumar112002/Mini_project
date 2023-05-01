@@ -1,0 +1,17 @@
+.main-4{
+    width: 100vw;
+    height: 100vh;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-tab table,td{
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+

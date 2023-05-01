@@ -1,0 +1,78 @@
+
+
+.main7{
+    width: 100vw;
+    height: 100vh;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main7-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2vh;
+    box-shadow: 0 29px 52px rgba(0,0,0,0.40), 0 25px 16px rgba(0,0,0,0.20);
+    border-radius: 2vh;
+    padding: 2vh;
+    
+}
+.main7-form-sub1{
+    display: flex;
+    flex-direction: column;
+}
+
+.main7-form-sub1 input, .main7-form-sub2 input,.main7-form-sub4 input, .main7-form-sub5 input,.main7-form-sub3 input{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 0.3vw;
+    background-color: transparent;
+    border: 2px;
+}
+
+.main7-form-sub2, .main7-form-sub4 , .main7-form-sub5, .main7-form-sub3{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.main7-dropdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main7-dropdown select{
+    width: 17vw;
+    height: 5vh;
+    border-radius: .2vw;
+}
+
+.main7-form-sub1 input::placeholder, .main7-form-sub2 input::placeholder,.main7 input::placeholder{
+    font-size: 1vw;   
+    color: black;
+}
+.main7-form-sub6 button{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 0.3vw;
+    background-color: transparent;
+    border: 2px;
+}
+.main7 input:hover{
+    box-shadow: 0px 2px 4px rgba(0, 248, 107, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3), inset 0px -3px 0px rgba(0, 0, 0, 0.2);
+}
+.main7-form-sub6 button:hover{
+    box-shadow: 0 26px 58px 0 rgba(0, 223, 130, 0.22), 0 5px 14px 0 rgba(0, 0, 0, .18);
+}
+
+.main7-form-sub6 button{
+    font-size: 1vw;      
+}

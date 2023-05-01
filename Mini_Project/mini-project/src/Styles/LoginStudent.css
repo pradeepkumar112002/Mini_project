@@ -1,0 +1,65 @@
+body{
+    background-color: #F1F8FF;    
+}    
+
+
+.main2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+    align-items: center;
+    
+    
+}
+
+.main-form1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2vh;
+    border: 2px dotted black;
+    border-radius: 2vh;
+    padding: 2vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;   
+}
+
+.main-form1-sub1 input, .main-form1-sub2 input{
+    width: 20vw;
+    height: 5vh;
+    border: 2px;
+    background-color: #D9AFD9;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: transparent;
+    border-radius: 0.5vw;
+    
+}
+.main-form1-sub1 input:hover, .main-form1-sub2 input:hover{
+    background-color: #85FFBD;
+}
+
+.main-form1-sub3 button{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: transparent;
+    border: 2px;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 0.3vw;
+}
+.main-form1-sub3 button:hover{
+    background-color: #85FFBD;
+}
+
+.main-form-sub1 input::placeholder, .main-form-sub2 input::placeholder{
+    font-size: 1vw;   
+}
+
+.main-form-sub3 button{
+    font-size: 1vw;      
+}
